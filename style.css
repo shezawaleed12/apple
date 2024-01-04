@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter",sans-serif;
+}
+.nav-container{
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    height: 44px;
+    z-index: 300;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+}
+.nav-container nav{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 8px;
+    height: 100%;
+}
+nav .desktop-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+nav .desktop-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    opacity: 0.8;
+    transition: opacity 400ms;
+}
+nav .desktop-nav li a:hover{
+    opacity: 1;
+}
+
+svg{
+    align-items: center;
+    margin-bottom: 5px;
+}
+.icon-link svg {
+    margin-top: 10px;
+}
+
+
+/*background image set */
+#one{
+  
+    background-image: url('hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg'); 
+    height: 100vh;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+ 
+
+
+}
+#Two{
+     
+    background-image: url('hero_iphone15_announce__uuemlcwczn6u_small_2x.jpg'); 
+    height: 100vh;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 20px;
+
+ 
+
+
+}
