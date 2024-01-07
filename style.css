@@ -8,6 +8,7 @@
 body{
     font-family: "Inter",sans-serif;
 }
+
 .nav-container{
     background: rgba(0,0,0,0.8);
     position: fixed;
@@ -51,10 +52,10 @@ svg{
 }
 
 
-/*background image set */
+/*background image    background-image: url('hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg'); set */
 #one{
   
-    background-image: url('hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg'); 
+    background-image: url('hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg');
     height: 100vh;
     background-position: center;
 background-repeat: no-repeat;
@@ -73,7 +74,104 @@ background-repeat: no-repeat;
 background-size: cover;
 margin-top: 20px;
 
- 
-
+}
+#hero {
+    margin-top: 20px;
+    position: relative;
+}
+#hero video{
+    height: 150vh;
+    width: 100%;
+    background-position:absolute;
+    z-index: 10;
+    object-fit: cover;
 
 }
+#hero .content{
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#three{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.part-4{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.part-4-1
+{
+    width: 50%;
+    height: 110vh;
+      object-fit: cover;
+      margin-left: 5px;
+      margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('promo_apple_watch_ultra2_order__dyxqj5ia98om_medium_2x.jpg');
+    
+}
+.part-4-2{
+    width: 50%;
+    height: 110vh;
+     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url('promo_mbp__ek7p477bkp6q_medium_2x.jpg');
+}
+.part-4-1-2
+{
+    width: 50%;
+    height: 110vh;
+      object-fit: cover;
+      margin-left: 5px;
+      margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('promo_ipad__fioegapg12qi_medium_2x.jpg');
+    
+}
+.part-4-2-2{
+    width: 50%;
+    height: 110vh;
+     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url('promo_apple_fitness_plus_new_years__bcmtyp1au76a_medium_2x.jpg');
+}
+.part-4-1-2-3
+{
+    width: 50%;
+    height: 110vh;
+      object-fit: cover;
+      margin-left: 5px;
+      margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('tile__cauwwcyyn9hy_medium_2x.jpg');
+    
+}
+.part-4-2-2-3{
+    width: 50%;
+    height: 110vh;
+     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url('promo_iphone_tradein__bugw15ka691e_medium_2x.jpg');
+}
+
+
+
+
