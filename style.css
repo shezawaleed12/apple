@@ -171,7 +171,61 @@ margin-top: 20px;
     margin-right: 5px;
     background-image: url('promo_iphone_tradein__bugw15ka691e_medium_2x.jpg');
 }
+.slider{
+    width: 100%;
+    height: 100vh;
+    padding: 2vh 0vw;
+    
+}
 
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .swiper-pagination{
+    margin-top: 20px;
+  }
+
+ 
+.swiper-1{
+    background-image: url('one.jpg');
+}
+.swiper-2{
+    background-image: url('two.jpg');
+}
+.swiper-3{
+    background-image: url('three.jpg');
+}
+.swiper-4{
+    background-image: url('four.jpg');
+}
+.swiper-5{
+    background-image: url('five.jpg');
+}
+.swiper-6{
+    background-image: url('six.jpg');
+}
 
