@@ -229,3 +229,73 @@ margin-top: 20px;
     background-image: url('six.jpg');
 }
 
+
+#footer{
+    background-color: #f2f2f2;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .container1{
+    font-size: 0.875em;
+    font-size: 12px;
+      line-height: 1.3333733333;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+      margin-left: 90px;
+  
+     
+  }
+  .container{
+    float: inherit;
+      font-size: 1.875em;
+      font-family: inherit;
+     
+      line-height: inherit;
+      letter-spacing: inherit;
+      text-align: inherit;
+  
+  }
+  .container3{
+    font-size: 0.875em;
+    font-size: 12px;
+      line-height: 1.3333733333;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+  
+  }
+  
+  .container h6 
+  {
+    font-size: 13px;
+  }
+  .container li{
+    font-size: 13px;  
+    line-height: 1.3333733333;
+    
+  
+  }
+  .nav-link a:hover {
+    color: black;
+  }
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px ;
+    background-color: black;
+    transition: width .3;
+  
+  }
+  .nav-link:hover::after{
+    width: 14%;
+    transition: width .3s;
+  }
+  p{
+    font-size: 0.875em;
+    font-size: 12px;
+      line-height: 1.3333733333;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+  
+      display: flex;
+  }
